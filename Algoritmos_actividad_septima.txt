@@ -1,0 +1,24 @@
+(1)
+pila = initialize;
+valid = verdadero;
+while(ya no haya elementos que leer){
+if (pila == empty){
+   cout << "Error" << endl;
+}
+else if(pila == false){
+    cout << peek <<endl;
+    pop(pila);
+   }
+}
+(2)
+pila = initialize;
+valid = verdadero;
+while(ya no haya elementos que leer){
+if (pila == empty){
+   cout << "Error" << endl;
+}
+else if(pila == false){
+    cout << peek <<endl;
+   }
+}
+ 
