@@ -1,0 +1,20 @@
+Actividad diez del portafolio:
+
+Notacion infija a postfija.
+
+Ejercicio 1: A-B/(C*D$E)
+Ejercicio 2: ((A+B)*C-(D-E))$(F+G)
+
+Respuestas:
+
+Ejercicio 1:
+
+A-B/(CDE$*)
+A-BCDE$*/
+ABCDE$*/-
+
+Ejercicio 2:
+
+(AB+*C-DE-)$(FG+)
+AB+C*-DE- $ FG+
+AB+C*DE--FG+$
