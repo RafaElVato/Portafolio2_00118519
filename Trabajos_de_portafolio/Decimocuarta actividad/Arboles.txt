@@ -1,0 +1,17 @@
+Cuales nodos son:
+- la raiz: A
+- Las ramas: B, C, D, E, F, H
+- Las hojas: I, J, G, K, L
+
+Niveles de los nodos:
+- A: 0
+- B: 1
+- C, D: 2
+- E, F, G, H: 3
+- I, J, K, L: 4
+
+Profundidad: 4
+Peso: 12
+Orden del arbol: 2
+
+Un sub-arbol cualquiera:

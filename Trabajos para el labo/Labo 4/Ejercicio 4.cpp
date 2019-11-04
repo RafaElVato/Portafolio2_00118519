@@ -35,44 +35,11 @@ typedef struct TNodo Nodo;
 
 Nodo *pInicio;
 
-void insertarInicio(Lista p) {
-    Nodo *nuevo = new Nodo;
-    nuevo->dato = p;
-    nuevo->sig = pInicio;
+Nodo paresPosi
 
-    pInicio = nuevo;
-}
+void sumarPares(Lista &p){
+    Lista m =
 
-void agregarListaPa(){
-    Lista p = agregarNum();
-
-    insertarInicio(p);
-
-}
-
-void agregarListaIm(){
-    Lista p = agregarNum();
-
-    insertarInicio(p);
-
-}
-
-void sumadosP(){
-    Nodo *s = pInicio;
-
-    while (s != NULL) {
-        agregarListaPa(s->dato);
-        s = s->sig;
-    }
-}
-
-void sumadosI(){
-    Nodo *s = pInicio;
-
-    while (s != NULL) {
-        agregarListaIm(s->dato);
-        s = s->sig;
-    }
 }
 
 int main(){
